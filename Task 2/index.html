@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Upadhyay</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home  -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, This is</h3>
+            <h1>Abhishek Upadhyay</h1>
+            <h3>And I am a Frontend Developer</h3>
+            <p>I am currently pursuing my Bachelor's in IT from Mumbai University.</p>
+
+            <div class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=100021546193276"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.linkedin.com/in/abhishek-upadhyay-041902264/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/abhii_sheku03/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/Abhi-shek03"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="CV.pdf" class="btn">Download CV</a>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Profile.jpeg" alt="Your Photo" id="profile-photo">
+        </div>        
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2> 
+            <p>Hi there! I'm Abhishek Upadhyay, a Third-year engineering student at Terna Engineering College, a passionate aspiring MERN developer excited about building dynamic web applications that bring ideas to life!, With a strong foundation in JavaScript and web development.  </p>
+        </div>
+    </section>
+
+
+    <section class="skills" id="skills">
+        <h2 class="heading">Skills <span>Earned</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="" alt="">
+                <div class="portfolio-layer">
+                    <h4>Meta Frontend Developer</h4>
+                    <p>The Meta Frontend Developer course is a comprehensive program designed to equip individuals with the necessary skills and knowledge to become proficient frontend developers. This course covers a wide range of topics, including HTML, CSS, JavaScript, responsive web design, and user experience (UX) principles.</p>
+                    <a href="https://coursera.org/share/0d428b64a0315782641372e3516d503f" class="btn">View Certificate</a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="" alt="">
+                <div class="portfolio-layer">
+                    <h4>JavaScript</h4>
+                    <p>The Complete JavaScript Course 2024: From Zero to Expert!.It  is an educational program designed to equip participants with a comprehensive understanding of JavaScript, a widely-used programming language for building interactive and dynamic web applications. The course is structured to cater to individuals with varying levels of programming experience, including beginners who may be starting from scratch.</p>
+                    <a href="https://www.udemy.com/certificate/UC-f6e24cc3-c248-4d41-ba41-cc00e4503d6c/" class="btn">View Certificate</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- portfolio design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="" alt="">
+                <div class="portfolio-layer">
+                    <h4>CHATBOT-HealthCare</h4>
+                    <p>In the ever-evolving landscape of healthcare, the integration of chatbots emerges as a revolutionary force, reshaping the dynamics of patient interaction and care delivery. These intelligent conversational agents are not merely technological novelties but powerful tools designed to enhance patient engagement, streamline processes, and ultimately improve healthcare outcomes.</p>
+                    <a href="https://github.com/Abhi-shek03/CHATBOT_HEALTHCARE.git"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="" alt="">
+                <div class="portfolio-layer">
+                    <h4>NewsJunction-React</h4>
+                    <p>Sumz is your go-to app for lightning-fast, AI-powered summarization. With Sumz, by your side, you can breeze through lengthy articles and reports in second with high precision and clarity.</p>
+                    <a href="https://github.com/Abhi-shek03/NewsJunction-React.git"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="" alt="">
+                <div class="portfolio-layer">
+                    <h4>DocBot: Intelligent Document Interaction using NLP</h4>
+                    <p>Our Object Detector, built using the powerful OpenCV framework, brings accuracy and efficiency to the world of computer vision. With this tool, you can effortlessly identify and locate objects within images and video stream.</p>
+                    <a href="https://github.com/Abhi-shek03/Internship_React.git"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>me!</span></h2>
+
+        <form action="https://formspree.io/f/mbjvwjaj" method="POST">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" name="full_name">
+                <input type="email" placeholder="Email Address" name="email">
+            </div>
+            <div class="input-box">
+                <input type="tel" placeholder="Mobile Number" name="mobile_number">
+                <input type="text" placeholder="Email Subject" name="email_subject">
+                <textarea name="message" cols="30" rows="10" placeholder="Your message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
